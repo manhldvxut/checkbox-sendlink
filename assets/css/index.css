@@ -1,0 +1,57 @@
+/* -------------------
+  VARIABLES
+--------------------*/
+/* -------------------
+  MIXIN
+--------------------*/
+/* 
+.example {
+  font-size: fs(12); <- 12px quite
+}
+*/
+/* 
+.example {
+  @include mq() {
+	  width: 100%;
+	}
+}
+*/
+/* -------------------
+  COMMON
+--------------------*/
+.pc-only {
+  display: block; }
+  @media screen and (max-width: 767px) {
+    .pc-only {
+      display: none !important; } }
+
+.pc-only2 {
+  display: inline-block; }
+  @media screen and (max-width: 767px) {
+    .pc-only2 {
+      display: none !important; } }
+
+.sp-only {
+  display: none; }
+  @media screen and (max-width: 767px) {
+    .sp-only {
+      display: block !important; } }
+
+/* -------------------
+  HEADER
+--------------------*/
+.header {
+  color: red; }
+
+/* -------------------
+  FOOTER
+--------------------*/
+.footer {
+  padding-top: 50px;
+  color: blue; }
+
+/* -------------------
+  TOP PAGE
+--------------------*/
+
+/*# sourceMappingURL=../maps/index.css.map */
